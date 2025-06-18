@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="h-[90vh] md:h-screen flex flex-col">
       {/* Chat Container */}
-      <div className='flex-1 overflow-y-auto p-4 bg-gray-100'>
+      <div className='flex-1 overflow-y-auto p-4 bg-gray-100' id='chat'>
         <div className='max-w-2xl mx-auto'>
           {messages.map((message) => (
             <div key={message.id} className="mb-4 p-3 bg-white rounded-lg shadow">

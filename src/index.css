@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+
+#chat{
+    background-image: url('assets/bg.png');
+    
+}
