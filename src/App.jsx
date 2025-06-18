@@ -43,7 +43,7 @@ function App() {
 
 
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-[90vh] md:h-screen flex flex-col">
       {/* Chat Container */}
       <div className='flex-1 overflow-y-auto p-4 bg-gray-100'>
         <div className='max-w-2xl mx-auto'>
